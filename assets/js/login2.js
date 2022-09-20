@@ -61,10 +61,10 @@ $(function(){
           return layer.msg(res.message)
         }
         layer.msg('登录成功')
-        // console.log(res.token);
+        console.log(res.token);
         localStorage.setItem('token',res.token)
         //跳转到后台页面
-        location.href='/index.html'
+        location.href='/index2.html'
         //Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcwNTIsInVzZXJuYW1lIjoibGloYW8iLCJwYXNzd29yZCI6IiIsIm5pY2tuYW1lIjoiIiwiZW1haWwiOiIiLCJ1c2VyX3BpYyI6IiIsImlhdCI6MTY2MzU5NDI3NiwiZXhwIjoxNjYzNjMwMjc2fQ.QxWMbd9vcfJL2TemNaZh7U2iStgbbN1H02ndP-Q6A3E
       }
     })
