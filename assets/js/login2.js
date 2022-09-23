@@ -57,7 +57,7 @@ $(function(){
       //快速获取表单中的元素
       data:$(this).serialize(),
       success(res){
-        if(res.status !==0){
+        if(res.status!==0){
           return layer.msg(res.message)
         }
         layer.msg('登录成功')

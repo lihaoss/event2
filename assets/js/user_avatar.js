@@ -48,6 +48,7 @@ $.ajax({
       return layer.msg('更换头像失败')
     }
     layer.msg('更换头像成功')
+    console.log(123);
     window.parent.getUserInfo()
   }
 })
